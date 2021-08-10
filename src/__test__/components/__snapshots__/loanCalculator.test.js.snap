@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loan Calculator Should render loan calculator template 1`] = `
+<div>
+  <div
+    class="form-group"
+  >
+    <label
+      for="monthlyIncome"
+      required=""
+    >
+      Monthly Income
+    </label>
+    <input
+      class=""
+      name="monthlyIncome"
+      type="text"
+      value="500000"
+    />
+  </div>
+  <div
+    class="form-group"
+  >
+    <label
+      for="requestedAmount"
+      required=""
+    >
+      Requested Amount
+    </label>
+    <input
+      class=""
+      name="requestedAmount"
+      type="text"
+      value="20000000"
+    />
+  </div>
+  <div
+    class="form-group"
+  >
+    <label
+      for="loanTerm"
+      required=""
+    >
+      Loan Term(in months)
+    </label>
+    <input
+      class=""
+      name="loanTerm"
+      type="text"
+      value="38"
+    />
+  </div>
+  <div
+    class="form-group"
+  >
+    <label
+      for="selectedChildren"
+    >
+      Children
+    </label>
+    <select
+      class=""
+      name="selectedChildren"
+    >
+      <option
+        value=""
+      >
+        --Choose an option--
+      </option>
+      <option
+        value="NONE"
+      >
+        NONE
+      </option>
+      <option
+        value="SINGLE"
+      >
+        SINGLE
+      </option>
+      <option
+        value="MULTIPLE"
+      >
+        MULTIPLE
+      </option>
+    </select>
+  </div>
+  <div
+    class="form-group"
+  >
+    <label
+      for="coApplicant"
+    >
+      Co-applicant
+    </label>
+    <select
+      class=""
+      name="coApplicant"
+    >
+      <option
+        value=""
+      >
+        --Choose an option--
+      </option>
+      <option
+        value="NONE"
+      >
+        NONE
+      </option>
+      <option
+        value="SINGLE_BORROWER"
+      >
+        SINGLE_BORROWER
+      </option>
+      <option
+        value="MULTIPLE_BORROWERS"
+      >
+        MULTIPLE_BORROWERS
+      </option>
+    </select>
+  </div>
+  
+  <button
+    type="submit"
+  >
+    Submit
+  </button>
+</div>
+`;

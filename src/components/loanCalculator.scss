@@ -1,0 +1,29 @@
+form {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.form-group {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  label {
+    font-size: 12px;
+    font-weight: bold;
+    width: 230px;
+  }
+  input {
+    width: 200px;
+    &.error, &.error:focus-visible {
+      border: 2px solid red;
+      outline: none;
+    }
+  }
+}
+p.error-msg {
+  margin: 0;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
