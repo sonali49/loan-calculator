@@ -13,8 +13,8 @@ const initialState = {
   coApplicant: "",
   errorAvailable: true,
 };
-const url = "https://homework.fdp.workers.dev";
 
+const url = "https://homework.fdp.workers.dev";
 const isValidInputCharacter = (key) => {
   const regex = /^[0-9\b]+$/;
   return regex.test(key);
@@ -249,11 +249,10 @@ const LoanCalculator = () => {
     })
       .then((resp) => resp.json())
       .then(function (response) {
-        console.log("Here it is----", response);
+        console.log("API call fails with CORS issue", response);
       })
       .catch(function (error) {
-        <MessageTemplate message="Failed due to internal" />;
-        console.log(error, "heyyyy");
+        console.log(error, "API call fails with CORS issue- Header needs to be fixed");
       });
   };
 
